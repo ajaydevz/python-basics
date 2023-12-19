@@ -1,0 +1,78 @@
+Hello, World!
+
+print("Hello, World!")
+
+Variables and Data Types
+
+# Variable assignment
+name = "John"
+age = 25
+height = 5.9
+
+# Print variables
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+
+Arithmetic Operations
+
+# Arithmetic operations
+a = 10
+b = 5
+
+sum_result = a + b
+difference = a - b
+product = a * b
+quotient = a / b
+
+print("Sum:", sum_result)
+print("Difference:", difference)
+print("Product:", product)
+print("Quotient:", quotient)
+
+
+Conditional Statements
+
+# Conditional statements
+number = 15
+
+if number % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+Loops
+
+# While loop
+count = 0
+while count < 5:
+    print("Count:", count)
+    count += 1
+
+# For loop
+for i in range(5):
+    print("Index:", i)
+
+
+Lists and Dictionaries
+
+# Lists
+fruits = ["apple", "orange", "banana"]
+print("Fruits:", fruits)
+
+# Dictionaries
+person = {"name": "Alice", "age": 30, "city": "Wonderland"}
+print("Person:", person)
+
+Functions
+
+# Function definition
+def greet(name):
+    return "Hello, " + name + "!"
+
+# Function call
+result = greet("Bob")
+print(result)
+
+
+
