@@ -1,78 +1,82 @@
-Hello, World!
+Python is known for its readability and simplicity. Here's a quick overview:
 
 print("Hello, World!")
 
-Variables and Data Types
+# Variables and Data Types
 
-# Variable assignment
 name = "John"
 age = 25
-height = 5.9
-
-# Print variables
-print("Name:", name)
-print("Age:", age)
-print("Height:", height)
-
-Arithmetic Operations
-
-# Arithmetic operations
-a = 10
-b = 5
-
-sum_result = a + b
-difference = a - b
-product = a * b
-quotient = a / b
-
-print("Sum:", sum_result)
-print("Difference:", difference)
-print("Product:", product)
-print("Quotient:", quotient)
-
-
-Conditional Statements
-
-# Conditional statements
-number = 15
-
-if number % 2 == 0:
-    print("Even")
-else:
-    print("Odd")
-
-Loops
-
-# While loop
-count = 0
-while count < 5:
-    print("Count:", count)
-    count += 1
-
-# For loop
-for i in range(5):
-    print("Index:", i)
-
-
-Lists and Dictionaries
+height = 1.75
+is_student = False
 
 # Lists
-fruits = ["apple", "orange", "banana"]
-print("Fruits:", fruits)
+
+fruits = ["apple", "banana", "orange"]
 
 # Dictionaries
-person = {"name": "Alice", "age": 30, "city": "Wonderland"}
-print("Person:", person)
 
-Functions
+person = {"name": "Alice", "age": 30}
 
-# Function definition
+# Control Flow Statements
+
+if age < 18:
+    print("You are a minor.")
+elif age >= 18 and age < 60:
+    print("You are an adult.")
+else:
+    print("You are a senior citizen.")
+
+# Loops
+
+for fruit in fruits:
+    print(fruit)
+
+# Functions
+
 def greet(name):
-    return "Hello, " + name + "!"
+    print(f"Hello, {name}!")
 
-# Function call
-result = greet("Bob")
-print(result)
+greet("Bob")
 
 
+2. Core Python Concepts
 
+Variables, Operators, and Expressions:
+
+# Variables
+
+x = 5
+y = 2.5
+name = "Alice"
+
+# Arithmetic Operators
+
+sum_result = x + y
+difference = x - y
+product = x * y
+quotient = x / y
+
+# Comparison Operators
+
+is_equal = x == y
+is_greater = x > y
+is_not_equal = x != y
+
+control flow statements!!
+
+# if-else statement
+
+if condition:
+    # code to execute if the condition is True
+else:
+    # code to execute if the condition is False
+
+# while loop
+
+while condition:
+    # code to execute repeatedly as long as the condition is True
+
+# for loop
+
+for variable in sequence:
+    # code to execute for each item in the sequence
